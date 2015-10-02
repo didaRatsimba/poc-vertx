@@ -13,7 +13,7 @@ public class ConfigVerticle extends AbstractVerticle {
 
 	public static final String DEVICE_BUS_ADDRESS = "com.wylog.device.bus.address";
 
-	public static final int PORT = 8181;
+	public static final int PORT = 8080;
 
 	public static final String DEVICE_KEY = "device_id";
 
