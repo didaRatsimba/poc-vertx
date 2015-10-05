@@ -17,11 +17,6 @@ public class ConfigVerticle extends AbstractVerticle {
 
 	public static final String DEVICE_KEY = "device_id";
 
-	@Override
-	public void start() throws Exception {
-		logger.info("config verticle loaded");
-	}
-
 	public static final String acceptMediaType(MediaType mediatype){
 		return mediatype.type().concat("/").concat(mediatype.subtype());
 	}
@@ -32,5 +27,10 @@ public class ConfigVerticle extends AbstractVerticle {
 
 	public static final String producesMediatype(MediaType mediatype){
 		return "application".concat("/").concat(mediatype.subtype());
+	}
+
+	@Override
+	public void start() throws Exception {
+		logger.info("config verticle loaded");
 	}
 }
