@@ -8,12 +8,8 @@
   </parent>
   <artifactId>device-sample-poc</artifactId>
   <description>An archetype for building Vertx3 applications</description>
-  <properties>
-    <vertx.version>3.0.0</vertx.version>
-  </properties>
 
   <dependencies>
-
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-core</artifactId>
