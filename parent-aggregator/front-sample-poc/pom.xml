@@ -8,9 +8,6 @@
   </parent>
   <artifactId>front-sample-poc</artifactId>
   <description>An archetype for building Vertx3 applications</description>
-  <properties>
-    <vertx.version>3.0.0</vertx.version>
-  </properties>
 
   <dependencies>
 
